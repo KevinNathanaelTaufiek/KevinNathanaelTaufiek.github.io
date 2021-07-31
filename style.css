@@ -15,10 +15,6 @@ body {
     font-weight: 600;
 }
 
-main {
-    height: 100vh;
-}
-
 h1 {
     font-weight: 600;
 }
@@ -39,4 +35,44 @@ p {
     font-weight: 600;
     color: white;
     border-radius: 100px;
+}
+
+.download-btn:hover {
+    background-color: #fff;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    color: #113DFF;
+    border-radius: 100px;
+}
+
+.photo-profile img {
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(15px);
+    border-radius: 10%;
+    height: 20em;
+}
+
+
+/* Kasih media Query jangan lupa!!! */
+
+.pp {
+    position: relative;
+}
+
+.circle {
+    background-color: #113DFF;
+    width: 15em;
+    height: 15em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 100%;
+    z-index: -100;
+}
+
+.circle:first-child {
+    background-color: #662FFF;
+    left: 15%;
+    top: -25%;
 }
