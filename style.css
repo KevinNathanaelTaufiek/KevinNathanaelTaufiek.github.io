@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+    color: white;
+}
+
+body {
+    background-color: #161616;
+}
+
+.navbar {
+    background-color: transparent !important;
+    font-weight: 600;
+}
+
+main {
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.greeting-illustration {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p {
+    font-weight: 300;
+}
+
+.download-btn {
+    background-color: #113DFF;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    border-radius: 100px;
+}
