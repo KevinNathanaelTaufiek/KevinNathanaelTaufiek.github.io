@@ -76,3 +76,62 @@ p {
     left: 15%;
     top: -25%;
 }
+
+
+/* Experience & skill */
+
+.experiences,
+.skills {
+    min-height: 20vw;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.experiences>img {
+    width: 200px;
+}
+
+.skills>img {
+    width: 100px;
+}
+
+.experiences:hover,
+.skills:hover {
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+}
+
+.works {
+    text-align: center;
+}
+
+.showcase>a {
+    transform: scale(0.8);
+    transition: 0.3s;
+}
+
+.showcase>a:hover {
+    transform: scale(1);
+}
+
+.more {
+    color: white;
+    text-decoration-color: white;
+}
+
+footer {
+    margin-top: 100px;
+    min-height: 5vw;
+    background-color: #113DFF;
+}
+
+.contact>a {
+    display: inline-block;
+}
+
+.contact>a>img {
+    transform: scale(0.8);
+}
