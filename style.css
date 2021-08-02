@@ -6,6 +6,19 @@
     color: white;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #113DFF;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
 body {
     background-color: #161616;
 }
@@ -61,7 +74,7 @@ p {
 }
 
 .circle {
-    background-color: #113DFF;
+    background: linear-gradient(90deg, rgba(17, 61, 255, 1) 0%, rgba(102, 47, 255, 1) 75%);
     width: 15em;
     height: 15em;
     position: absolute;
@@ -72,7 +85,7 @@ p {
 }
 
 .circle:first-child {
-    background-color: #662FFF;
+    background: linear-gradient(225deg, rgba(17, 61, 255, 1) 0%, rgba(102, 47, 255, 1) 75%);
     left: 15%;
     top: -25%;
 }
@@ -87,6 +100,7 @@ p {
     backdrop-filter: blur(15px);
     border-radius: 10px;
     transition: 0.3s;
+    overflow-x: hidden;
 }
 
 .experiences>img {
