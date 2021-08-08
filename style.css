@@ -21,6 +21,7 @@
 
 body {
     background-color: #161616;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -90,6 +91,10 @@ p {
     top: -25%;
 }
 
+.desc {
+    z-index: 100;
+}
+
 
 /* Experience & skill */
 
@@ -148,4 +153,29 @@ footer {
 
 .contact>a>img {
     transform: scale(0.8);
+}
+
+@media only screen and (max-width: 767.98px) {
+    .pp {
+        margin-top: 100px;
+    }
+    .circle {
+        width: 10em;
+        height: 10em;
+        top: 70%;
+    }
+    .circle:first-child {
+        left: 0%;
+        top: -25%;
+    }
+    .desc {
+        margin-top: 25px;
+    }
+    .experiences>img {
+        width: 100px;
+    }
+    .skills>img {
+        width: 50px;
+        margin-top: 20px;
+    }
 }
