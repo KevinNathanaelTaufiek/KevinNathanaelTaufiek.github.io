@@ -127,6 +127,11 @@ p {
     text-align: center;
 }
 
+.works img {
+    width: 450px;
+    height: 470px;
+}
+
 .showcase>a {
     transform: scale(0.8);
     transition: 0.3s;
