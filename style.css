@@ -42,6 +42,34 @@ p {
     font-weight: 300;
 }
 
+@keyframes typer {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.typing-container {
+    display: flex;
+}
+
+.typing-cursor {
+    display: inline-block;
+    width: 4px;
+    height: 32px;
+    background-color: white;
+    margin-left: 8px;
+    animation: typer .6s linear infinite alternate;
+}
+
 .download-btn {
     background-color: #113DFF;
     padding: 0.5em 1.5em;

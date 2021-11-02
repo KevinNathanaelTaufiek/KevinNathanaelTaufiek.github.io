@@ -35,8 +35,13 @@
     <main class="container mt-5 py-5">
         <div class=" row ">
             <div class="col-lg-6 col-sm-12">
-                <h1>Hello, <br> My name is <br> Kevin Nathanael <br> Taufiek
-                </h1>
+                <div class="typing-container">
+                    <span>
+                        <h1 id="hello-txt" style="display: inline;"></h1>
+                        <!-- Hello, <br> My name is <br> Kevin Nathanael <br> Taufiek -->
+                        <span class="typing-cursor"></span>
+                    </span>
+                </div>
                 <p>I'm a computer science Student <br> at Bina Nusantara University</p>
                 <a class="download-btn" href="Assets/CV-Kevin-Nathanael-Taufiek.pdf" target="_blank">Download CV</a>
             </div>
@@ -147,7 +152,9 @@
     <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js" type="text/javascript"></script>
     <script>
+        typing("Hello,?My name is?Kevin Nathanael?Taufiek", "#hello-txt");
         AOS.init({
             delay: 100,
             mirror: true,
